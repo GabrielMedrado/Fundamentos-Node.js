@@ -12,7 +12,7 @@ app.get("/courses", (request, response) => {
 app.post("/courses", (request, response) => {
    const body = request.body;
    console.log(body);
-   return response.json(["Curso 1", "Curso 2", "Curso 3", "Curso 4"])
+   return response.json(["Curso 1", "Curso 2", "Curso 3", "Curso 4", "Curso 5"])
 });
 
 
